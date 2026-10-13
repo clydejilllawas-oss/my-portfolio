@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/515440156_24372562999016450_256394854880406266_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s1440x1440&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG0GYHPqR6KYuMRZb7gTZUIQM5N6JUtqFZAzk3olS2oVuq3meH8sLf5C-9YEKWb41ChZdPl_1Uiuhs0GpVN9HXc&_nc_ohc=0amC7_FXyM8Q7kNvwHy6liS&_nc_oc=AdqBzLeHJPV813M0rKwmriZU7YrEF-CllDFBi4Hzan0KgmftyvC6OFj1YzB7qsM9XjQ&_nc_zt=23&_nc_ht=scontent.fcgy2-1.fna&_nc_gid=vPzj8grpV6hIFnDQ7U2jsw&_nc_ss=7b2a8&oh=00_AQPbBC59rIU-oMbZyAuxA79rDqdLllvMT6gA-Iz2-5uyUQ&oe=6ACA64EE);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}

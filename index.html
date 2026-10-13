@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">LAWAS<span>Portfolio</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Coding Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-content">
+            <!-- PROFILE IMAGE CONTAINER -->
+            <div class="profile-avatar-container">
+                <img src="my-photo.jpg" alt="Clyde Jill Lawas" class="profile-avatar">
+            </div>
+
+            <h1>Hi, I'm <span class="highlight">CLYDE JILL JORQUIA-LAWAS</span></h1>
+            <h2>Student & Frontend Developer</h2>
+            <p>I build clean, high-performing web applications. Check out my VS Code classroom activities and technical assignments below.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Code Activities</a>
+                <!-- RESUME DOWNLOAD BUTTON (Place your PDF file in the same folder) -->
+                <a href="my-resume.pdf" download="Alex_Morgan_Resume.pdf" class="btn resume-btn">
+                    📥 Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate developer currently sharpening my skills through structured coding environments. Below you can find my progress logs, layout practices, and logic implementations built directly inside VS Code.</p>
+                </div>
+                <div class="skills-box">
+                    <h3>Skills & Tools</h3>
+                    <div class="skills-tags">
+                        <span class="tag">HTML5 & CSS3</span>
+                        <span class="tag">JavaScript (ES6)</span>
+                        <span class="tag">VS Code Workflow</span>
+                        <span class="tag">Responsive Web Design</span>
+                        <span class="tag">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VS Code Coding Activities Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">VS Code Class Activities</h2>
+            <p class="section-subtitle">A collection of lab work, code challenges, and layouts built during my course modules.</p>
+            
+            <div class="projects-grid">
+                <!-- Activity 1 -->
+                <div class="My Portfolio/activities/activity-1/Lawas, Clyde_My Student Life.html">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">My Student Life.html</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>My Student Life Page Layout</h3>
+                        <p>Class exercise mastering word applications using html5 coding in Visual Studio Code.</p>
+                        <div class="links-group">
+                            <a href="activities/activity-1/index.html" target="_blank" class="project-link">Live Preview &rarr;</a>
+                            <a href="My Portfolio/activities/activity-1/Lawas, Clyde_My Student Life.html>Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 2 -->
+                <div class="project-card activity-card">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">form_validation.js</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Form Validation</h3>
+                        <p>A functional lab assignment focusing on DOM manipulation, validating user email inputs, and managing form data strings.</p>
+                        <div class="links-group">
+                            <a href="activities/activity-2/index.html" target="_blank" class="project-link">Live Preview &rarr;</a>
+                            <a href="https://github.com" target="_blank" class="repo-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 3 -->
+                <div class="project-card activity-card">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">style_grid.css</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>CSS Grid Product Gallery</h3>
+                        <p>A school mini-project building custom asymmetrical image cards utilizing standard multi-column CSS Grid arrays.</p>
+                        <div class="links-group">
+                            <a href="activities/activity-3/index.html" target="_blank" class="project-link">Live Preview &rarr;</a>
+                            <a href="https://github.com" target="_blank" class="repo-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 DevPortfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

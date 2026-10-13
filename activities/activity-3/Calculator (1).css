@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #8f0b63;
+    color: #fdfffc;
+    text-align: center;
+    background-image: url("https://scontent.fceb6-4.fna.fbcdn.net/v/t39.30808-6/814785672_28877695895169782_6511898732103975007_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=s1440x1920&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHKVEB70KYXTfMGYmx3bP05wX9K4l7FunzBf0riXsW6fJFiOyewsxDNsJeYjGI_VZq5Uv_6efGouiH8uWdyEWtQ&_nc_ohc=iO8dmUngz94Q7kNvwFGrRWn&_nc_oc=AdoN3MD_GhILqMW-6FPcLnTXvh7UcCT-iu-ST7a7-rHqkMp3ZPDgjj60jkGvv9B_M6DRpLSXK70I6dI5RBNI5yyP&_nc_zt=23&_nc_ht=scontent.fceb6-4.fna&_nc_gid=C4dvKnGiw0dlsyRHmAEmfg&_nc_ss=7b2a8&oh=00_AQKgjg9_OCW3s-mNVrQxLWW_U2ztoqGaKh7Zja2PkUcMsg&oe=6AB9CA21");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-size: 45px;
+}
+
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
