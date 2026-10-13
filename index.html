@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <title>Clyde Jill Lawas | Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts for modern typography -->
     <link rel="preconnect" href="https://googleapis.com">
@@ -14,7 +14,7 @@
 
     <!-- Navigation Bar -->
     <header class="navbar">
-        <div class="logo">LAWAS<span>Portfolio</span></div>
+        <div class="logo">Clyde<span>Jill</span></div>
         <nav>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
@@ -26,19 +26,19 @@
     </header>
 
     <!-- Hero Section -->
-    <div class="hero-content">
-            <!-- PROFILE IMAGE CONTAINER -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <!-- PROFILE IMAGE CONTAINER (Fixed to .png to match your repository) -->
             <div class="profile-avatar-container">
-                <img src="my-photo.jpg" alt="Clyde Jill Lawas" class="profile-avatar">
+                <img src="my-photo.png" alt="Clyde Jill Lawas" class="profile-avatar">
             </div>
-
-            <h1>Hi, I'm <span class="highlight">CLYDE JILL JORQUIA-LAWAS</span></h1>
+            
+            <h1>Hi, I'm <span class="highlight">Clyde Jill Lawas</span></h1>
             <h2>Student & Frontend Developer</h2>
             <p>I build clean, high-performing web applications. Check out my VS Code classroom activities and technical assignments below.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn primary-btn">View Code Activities</a>
-                <!-- RESUME DOWNLOAD BUTTON (Place your PDF file in the same folder) -->
-                <a href="my-resume.pdf" download="Alex_Morgan_Resume.pdf" class="btn resume-btn">
+                <a href="my-resume.pdf" download="Clyde_Jill_Lawas_Resume.pdf" class="btn resume-btn">
                     📥 Download Resume
                 </a>
             </div>
@@ -51,7 +51,7 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>I am a passionate developer currently sharpening my skills through structured coding environments. Below you can find my progress logs, layout practices, and logic implementations built directly inside VS Code.</p>
+                    <p>I am a passionate developer currently sharpening my web programming skills through structured coding environments. Below you can find my progress logs, layout practices, and logic implementations built directly inside VS Code.</p>
                 </div>
                 <div class="skills-box">
                     <h3>Skills & Tools</h3>
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-        <!-- VS Code Coding Activities Section -->
+    <!-- VS Code Coding Activities Section -->
     <section id="projects" class="projects-section">
         <div class="section-container">
             <h2 class="section-title">VS Code Class Activities</h2>
@@ -123,6 +123,70 @@
                         <p>A school mini-project building custom asymmetrical image cards utilizing standard multi-column CSS Grid arrays.</p>
                         <div class="links-group">
                             <a href="activities/activity-3/index.html" target="_blank" class="project-link">Live Outcome &rarr;</a>
+                            <a href="https://github.com" target="_blank" class="repo-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- VS Code Coding Activities Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">VS Code Class Activities</h2>
+            <p class="section-subtitle">A collection of lab work, code challenges, and layouts built during my course modules.</p>
+            
+            <div class="projects-grid">
+                <!-- Activity 1: Personal Portfolio itself as an outcome! -->
+                <div class="project-card activity-card">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">index.html</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Personal Portfolio</h3>
+                        <p>A live personal portfolio landing page designed with an IDE aesthetic using HTML5 semantic elements and clean custom CSS variable declarations.</p>
+                        <div class="links-group">
+                            <a href="index.html" class="project-link">Live Outcome &rarr;</a>
+                            <a href="https://github.com" target="_blank" class="repo-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 2: Main Styling Sheet -->
+                <div class="project-card activity-card">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">style.css</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Custom Theme & Component Styling</h3>
+                        <p>Complete layout design demonstrating component alignment, neon ambient box-shadow glow styles, and typography scales.</p>
+                        <div class="links-group">
+                            <a href="style.css" target="_blank" class="project-link">View Styles &rarr;</a>
+                            <a href="https://github.com" target="_blank" class="repo-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity 3: Profile Photo File asset structure -->
+                <div class="project-card activity-card">
+                    <div class="vscode-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">my-photo.png</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Asset Management & Display</h3>
+                        <p>Class task centered around managing image aspect ratios using object-fit bounding constraints inside responsive circle avatars.</p>
+                        <div class="links-group">
+                            <a href="my-photo.png" target="_blank" class="project-link">Live Image &rarr;</a>
                             <a href="https://github.com" target="_blank" class="repo-link">View Code</a>
                         </div>
                     </div>
